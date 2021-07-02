@@ -218,7 +218,14 @@ a {
   background-color: var(--darkbgr-color);
   padding-top: 200px;
   padding-bottom: 200px;
+
   text-align: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg.jpg);
 }
 
 .hero-btn {
@@ -282,16 +289,14 @@ a {
 }
 .icon-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  /* padding: 25px 100px;
- */
 }
-
-.icon
 
 /* -- Чем мы занимаемся --> */
 
@@ -316,7 +321,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
 /* -- Список команды --> */
 .team-section {
   background-color: var(--mainbgrtwo-color);
