@@ -201,6 +201,7 @@ a {
 .tel-link {
   display: flex;
   align-items: center;
+}
 
 /* Hero */
 .hero-title {
