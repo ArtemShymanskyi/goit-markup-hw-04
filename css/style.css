@@ -535,6 +535,8 @@ a {
 }
 .footer-social {
   margin-left: 70px;
+  margin-top: 5px;
+  justify-content: center;
   text-align: center;
 }
 .footer-social-title {
