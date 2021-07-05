@@ -539,6 +539,7 @@ a {
 }
 .footer-social-title {
   margin-bottom: 20px;
+  margin-right: 50px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
