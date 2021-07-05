@@ -197,6 +197,10 @@ a {
 .tel-icon:focus {
   fill: var(--accent-color);
 }
+.mail-link,
+.tel-link {
+  display: flex;
+  align-items: center;
 
 /* Hero */
 .hero-title {
@@ -432,20 +436,21 @@ a {
 .clients-list-link {
   fill: #afb1b8;
 }
+.clients-list-link:hover,
+.clients-list-link:focus {
+  fill: var(--accent-color);
+}
 .clients-item {
   width: 170px;
   height: 92px;
-  left: 215px;
-  top: 2493px;
-
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
 }
+
 .clients-item:hover,
 .clients-item:focus {
   fill: var(--accent-color);
