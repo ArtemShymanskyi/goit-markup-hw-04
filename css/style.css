@@ -434,14 +434,14 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.clients-list-link {
-  fill: #afb1b8;
-}
+
 .clients-list-link:hover,
 .clients-list-link:focus {
   fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
-.clients-item {
+
+.clients-list-link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -450,12 +450,6 @@ a {
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
-}
-
-.clients-item:hover,
-.clients-item:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
 }
 
 /* Footer */
